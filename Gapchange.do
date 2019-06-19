@@ -68,4 +68,4 @@ ytitle("Change" "in Racial" "Wealth Gap", orientation(horizontal) height(15.25))
 title("Where the Racial Wealth Gap has Grown") subtitle("1983-2016") ///
 xlab(1 25(25)75 99 109 "(99.9)") ylab(0(50)200 250 "250%") plotregion(margin(zero)) graphregion(margin(0 5 0 0))
 
-graph export  graphs/gapchange8316.png, width(2500) name(gapchange) replace
+graph export graphs/gapchange_83to16.png, width(2500) name(gapchange) replace
